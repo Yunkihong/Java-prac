@@ -35,7 +35,9 @@ public class StoreTask {
 		Costumer c1=new Costumer("홍윤기","010-9664-8141",10_000,10);
 		Costumer c2=new Costumer("홍길동","000-0000-1234",100_000_000,99);
 		s1.price=s1.price-s1.price/c1.sale;
+		s1.price=s1.price-s1.price/c2.sale;
 		System.out.println(s1.price);
+		System.out.println(s2.price);
 		
 		
 		
